@@ -1,8 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    font-family: "Outfit", sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* start navbar */
+
+.dropdown-menu {
+    width: fit-content !important;
+}
+
+.deliver-span {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.list-item a:hover {
+    background-color: #ffc108;
+    color: #000;
+}
+
+.start-here:hover {
+    color: #0d71fc !important;
+    background-color: #fff !important;
+    text-decoration: underline !important;
+}
+
+.input-group .dropdown-menu {
+    margin-top: 18px !important;
+}
+
+nav .navbar-brand {
+    width: 120px !important;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    width: fit-content;
+}
+
+.nav-link p {
+    width: fit-content;
+}
+
+.group-form:hover,
+.group-form:focus {
+    box-shadow: 0px 0px 3px 3px #ffc108;
+}
+
+.search-bar {
+    width: 45rem !important;
+}
+
+.search-bar:focus,
+.dropdown-toggle:focus {
+    box-shadow: none !important;
+    border: 0;
+    outline: 0 !important;
+}
+
+.nav-item:hover:not(.nav-item.search),
+.navbar-brand:hover {
+    outline: 1px solid #fff;
+}
+
+.modal-content {
+    border-top-left-radius: 0.375rem !important;
+    border-top-right-radius: 0.375rem !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    width: 25rem !important;
+}
+
+.modal-footer-pragraph {
+    color: #626262;
+}
+
+.or {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fade .dropdown-toggle {
+    background-color: #f0f2f2;
+}
+
+.fade .dropdown-toggle:hover {
+    background-color: #ddd;
+}
+
+.fade .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.all-dropdown-menu {
+    left: -220px !important;
+}
+
+.p-lang-dropdown {
+    width: 13rem;
+    font-size: 15px;
+}
+
+.lang-dropdown-menu {
+    margin-top: 4px !important;
+}
+
+.flag {
+    width: 30px;
+}
+
+.flag-lang {
+    width: 20px;
+}
+
+.accounts-inner {
+    font-size: 15px;
+}
+
+.accounts-inner-span {
+    font-size: 13px;
+}
+
+.accounts-dropdown-menu {
+    width: 32rem !important;
+    margin-top: 5px !important;
+    left: -200px !important;
+}
+
+.accounts-dropdown-paraghraph {
+    font-size: 11px !important;
+}
+
+.accounts-dropdown-menu .list-item .div h6 {
+    font-size: 18px;
+}
+
+.accounts-dropdown-menu .list-item .div a {
+    font-size: 14px;
+}
+
+.accounts-dropdown-menu .list-item .div a:hover {
+    color: #ffc108 !important;
+    text-decoration: underline !important;
+}
+
+.cart-img {
+    width: 30px;
+}
+
+.other-links {
+    background-color: #222e3d;
 }
